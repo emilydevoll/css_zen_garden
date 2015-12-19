@@ -1,0 +1,30 @@
+@mixin main-box {
+	width: 76%;
+	margin-left: 11.3%;
+	border: $primary-border;
+	padding: 1% 0 2% 0;
+	background-color: $secondary-color;
+}
+
+@mixin primary-hover {
+	font-weight: 400;
+	color: $primary-color;
+	text-decoration: underline;
+	text-decoration-color: $primary-accent-color;
+}
+
+@mixin secondary-hover {
+	border: $primary-border;
+	color: white;
+	background-color: $secondary-color;
+	text-decoration: none;
+}
+
+@mixin design-a {
+	font-family: OpenSansBold, sans-serif;
+	color: $primary-accent-color;
+	text-decoration: none;
+	padding: 2%;
+	font-size: 18px;
+	text-transform: uppercase;
+}

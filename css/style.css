@@ -1,0 +1,432 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.intro {
+  background: url(../images/header_background_small.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  margin: 0 auto; }
+  .intro h1 {
+    font-family: Montserrat Subrayada, sans-serif;
+    font-weight: 700;
+    color: #EC5A49;
+    text-align: center;
+    padding-top: 27%;
+    padding-bottom: 2%;
+    font-size: 35px; }
+  .intro h2 {
+    font-family: Montserrat Subrayada, sans-serif;
+    font-weight: 700;
+    color: #257FBB;
+    text-align: center;
+    padding-bottom: 12%;
+    max-width: 320px;
+    font-size: 28px;
+    margin: 0 auto; }
+  .intro .summary {
+    background-color: #afaeaf;
+    border: 4px solid black;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1% 0; }
+    .intro .summary :nth-child(2) {
+      padding-top: 1%;
+      text-align: center; }
+      .intro .summary :nth-child(2) a:before {
+        display: none; }
+      .intro .summary :nth-child(2) a:after {
+        display: none; }
+    .intro .summary :nth-child(2):before {
+      content: '--->	 ';
+      color: black;
+      font-size: 18px; }
+    .intro .summary :nth-child(2):after {
+      content: '	 <---';
+      color: black;
+      font-size: 18px; }
+    .intro .summary p {
+      font-family: Roboto Slab, serif;
+      margin: 0 auto;
+      padding: 1% 2%;
+      font-size: 12.5px;
+      font-weight: 300;
+      line-height: 120%;
+      color: white; }
+    .intro .summary a {
+      text-decoration: none;
+      color: #f3da4b;
+      font-weight: 400; }
+    .intro .summary a:hover {
+      font-weight: 400;
+      color: #EC5A49;
+      text-decoration: underline;
+      text-decoration-color: #f3da4b; }
+  .intro .preamble {
+    margin: 0 auto;
+    background-color: #EC5A49;
+    width: 100%;
+    margin-top: 4%;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding-bottom: 1%; }
+    .intro .preamble h3 {
+      font-family: Montserrat Subrayada, sans-serif;
+      text-align: center;
+      font-size: 27px;
+      padding: 3% 0 2% 0;
+      width: 90%;
+      margin-left: 5%;
+      color: white;
+      font-weight: 400; }
+    .intro .preamble p {
+      font-family: Roboto Slab, serif;
+      font-size: 14px;
+      margin: 0 auto;
+      padding: 1% 0;
+      line-height: 130%;
+      color: white;
+      font-weight: 300;
+      width: 86%; }
+    .intro .preamble :nth-child(4) {
+      padding-bottom: 3%; }
+
+.main-supporting {
+  background: url(../images/main_background_small.jpg) 0 0 no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-top: 1%; }
+  .main-supporting h3 {
+    font-family: Montserrat Subrayada, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 3% 0 3% 0;
+    font-size: 28px;
+    font-weight: 400; }
+  .main-supporting p {
+    font-family: Roboto Slab, serif;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 1% 3%;
+    font-weight: 300;
+    color: white; }
+  .main-supporting a {
+    text-decoration: none;
+    color: #f3da4b;
+    font-weight: 400; }
+  .main-supporting a:hover {
+    font-weight: 400;
+    color: #EC5A49;
+    text-decoration: underline;
+    text-decoration-color: #f3da4b; }
+  .main-supporting .participation, .main-supporting .benefits, .main-supporting .requirements {
+    width: 76%;
+    margin-left: 11.3%;
+    border: 4px solid black;
+    padding: 1% 0 2% 0;
+    background-color: #257FBB;
+    margin-top: 2%; }
+  .main-supporting .explanation {
+    width: 76%;
+    margin-left: 11.3%;
+    border: 4px solid black;
+    padding: 1% 0 2% 0;
+    background-color: #257FBB; }
+  .main-supporting footer {
+    background-color: #afaeaf;
+    margin: 0 auto;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 100%;
+    height: 40px;
+    padding: 5% 0 1% 0;
+    margin-top: 1%;
+    text-align: center; }
+    .main-supporting footer a {
+      font-family: OpenSansBold, sans-serif;
+      font-size: 17px;
+      margin: 0 auto;
+      padding: 2%;
+      text-align: center;
+      text-transform: uppercase; }
+    .main-supporting footer a:hover {
+      border: 4px solid black;
+      color: white;
+      background-color: #257FBB;
+      text-decoration: none; }
+
+.sidebar {
+  margin: 0 auto; }
+  .sidebar .design-selection {
+    background-color: #f3da4b;
+    padding: 5% 0;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 4px solid black; }
+    .sidebar .design-selection a {
+      color: #257FBB;
+      text-decoration: none; }
+    .sidebar .design-selection h3 {
+      font-family: Montserrat Subrayada, sans-serif;
+      font-weight: 400;
+      font-size: 35px;
+      padding-bottom: 5%;
+      color: white; }
+    .sidebar .design-selection li {
+      height: 40px;
+      color: black;
+      background: #FFF;
+      padding: 5% 1% 3% 1%;
+      width: 200px;
+      margin: 4px;
+      font-family: 'OpenSansBold', sans-serif;
+      border: 4px solid black;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: inline-block;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 0 #afaeaf;
+      -webkit-transition: all ease 0.8s;
+      -moz-transition: all ease 0.8s;
+      transition: all ease 0.8s; }
+    .sidebar .design-selection li:hover {
+      box-shadow: inset 0 200px 0 0 #EC5A49;
+      color: #f3da4b; }
+      .sidebar .design-selection li:hover a {
+        color: white; }
+  .sidebar .design-archives {
+    background-color: #EC5A49;
+    padding: 5% 0 3% 0;
+    box-sizing: border-box;
+    border-bottom: 4px solid black; }
+    .sidebar .design-archives h3 {
+      font-family: Montserrat Subrayada, sans-serif;
+      font-weight: 400;
+      font-size: 35px;
+      text-align: center;
+      padding-bottom: 4%;
+      color: white; }
+    .sidebar .design-archives a {
+      font-family: OpenSansBold, sans-serif;
+      color: #f3da4b;
+      text-decoration: none;
+      padding: 2%;
+      font-size: 18px;
+      text-transform: uppercase; }
+    .sidebar .design-archives a:hover {
+      border: 4px solid black;
+      color: white;
+      background-color: #257FBB;
+      text-decoration: none; }
+    .sidebar .design-archives .next, .sidebar .design-archives .viewall {
+      margin: 0 auto;
+      padding-bottom: 3%;
+      text-align: center; }
+  .sidebar .zen-resources {
+    background-color: #afaeaf;
+    padding: 5% 0 3% 0;
+    border-bottom: 4px solid black;
+    box-sizing: border-box; }
+    .sidebar .zen-resources h3 {
+      font-family: Montserrat Subrayada, sans-serif;
+      font-weight: 400;
+      font-size: 35px;
+      text-align: center;
+      padding-bottom: 4%;
+      color: white; }
+    .sidebar .zen-resources a {
+      font-family: OpenSansBold, sans-serif;
+      color: #f3da4b;
+      text-decoration: none;
+      padding: 2%;
+      font-size: 18px;
+      text-transform: uppercase; }
+    .sidebar .zen-resources a:hover {
+      border: 4px solid black;
+      color: white;
+      background-color: #257FBB;
+      text-decoration: none; }
+    .sidebar .zen-resources .view-css, .sidebar .zen-resources .css-resources, .sidebar .zen-resources .zen-faq, .sidebar .zen-resources .zen-submit, .sidebar .zen-resources .zen-translations {
+      padding-bottom: 3%;
+      text-align: center; }
+
+@media screen and (min-width: 600px) {
+  body {
+    margin: 0 auto; }
+
+  .intro {
+    background: url(../images/header_background_medium.jpg) 0 0 no-repeat;
+    background-size: 100%; }
+    .intro h1 {
+      font-size: 47px;
+      padding-top: 22%;
+      padding-bottom: 2%; }
+    .intro h2 {
+      padding-bottom: 9%;
+      font-size: 35px;
+      max-width: 400px; }
+    .intro .summary {
+      width: 62%; }
+      .intro .summary p {
+        font-size: 14px;
+        padding: 2% 2%; }
+    .intro .preamble {
+      margin: 0 auto;
+      margin-top: 3%;
+      padding-bottom: 1%; }
+      .intro .preamble h3 {
+        font-size: 30px; }
+      .intro .preamble p {
+        padding: 1% 0;
+        margin: 0 auto;
+        width: 75%;
+        font-size: 15px; }
+
+  .main-supporting {
+    background: url(../images/main_background_large.jpg) 0 0 no-repeat;
+    background-size: 100%;
+    margin-top: 1%; }
+    .main-supporting h3 {
+      font-size: 30px; }
+    .main-supporting .explanation, .main-supporting .participation, .main-supporting .benefits, .main-supporting .requirements {
+      margin-left: 11%;
+      width: 77%; }
+    .main-supporting footer {
+      padding-bottom: 2%; }
+      .main-supporting footer a {
+        font-size: 18px; }
+
+  .sidebar .design-selection h3 {
+    font-size: 38px; }
+  .sidebar .design-selection li {
+    width: 200px;
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 50px; }
+  .sidebar .design-archives h3 {
+    font-size: 38px; }
+  .sidebar .zen-resources h3 {
+    font-size: 38px; } }
+@media screen and (min-width: 875px) {
+  body {
+    max-width: 1130px;
+    margin: 0 auto; }
+
+  .intro {
+    background: url(../images/header_background_large.jpg) 0 0 no-repeat;
+    background-size: 100%;
+    margin: 0 auto; }
+    .intro h1 {
+      font-size: 60px;
+      padding-bottom: 1%;
+      padding-top: 17%; }
+    .intro h2 {
+      font-size: 45px;
+      padding-bottom: 8%; }
+    .intro .summary {
+      width: 40%;
+      padding: 1%; }
+      .intro .summary p {
+        font-size: 15px;
+        width: 95%; }
+    .intro .preamble {
+      margin: 0 auto;
+      margin-top: 3%; }
+      .intro .preamble h3 {
+        font-size: 35px; }
+      .intro .preamble p {
+        width: 60%; }
+
+  .main-supporting {
+    background: url(../images/main_background_large.jpg) 0 0 no-repeat;
+    background-size: 100%;
+    float: left;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 1px; }
+    .main-supporting h3 {
+      font-size: 32px; }
+    .main-supporting p:first-child {
+      margin-top: -1%; }
+    .main-supporting .explanation, .main-supporting .participation, .main-supporting .benefits, .main-supporting .requirements {
+      width: 77%;
+      margin-left: 11%; }
+    .main-supporting footer {
+      clear: both;
+      padding: 5% 0 1.5% 0; }
+
+  .sidebar {
+    float: right;
+    width: 35%; }
+    .sidebar .design-selection {
+      padding: 9% 0 9.5% 0; }
+      .sidebar .design-selection li {
+        padding-top: 9%;
+        padding-bottom: 4%; }
+    .sidebar .design-archives {
+      width: 100%;
+      padding: 8% 0 8% 0;
+      background-color: #afaeaf; }
+      .sidebar .design-archives h3 {
+        text-align: center;
+        padding-bottom: 6%; }
+      .sidebar .design-archives .next, .sidebar .design-archives .viewall {
+        padding-bottom: 4%; }
+    .sidebar .zen-resources {
+      width: 100%;
+      padding: 8.5% 0 8% 0;
+      background-color: #EC5A49; }
+      .sidebar .zen-resources h3 {
+        text-align: center;
+        padding-bottom: 6%; }
+      .sidebar .zen-resources .view-css, .sidebar .zen-resources .css-resources, .sidebar .zen-resources .zen-faq, .sidebar .zen-resources .zen-submit, .sidebar .zen-resources .zen-translations {
+        padding-bottom: 4%; } }
+
+/*# sourceMappingURL=style.css.map */
